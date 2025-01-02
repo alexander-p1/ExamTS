@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: azure;
+    font-family: 'Roboto', sans-serif;
+}
+
+.overlay-wrapper {
+    width: 100vw;
+    height: 100vh;
+    inset: 0;
+    position: fixed;
+    /* display: none; */
+
+    background-color: #222;
+}
+
+.overlay-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100vw;
+    height: 100vh;
+}
+
+.current-book {
+    width: 24rem;
+    height: 28rem;
+    border-radius: 2px;
+    background: #6FCF97;
+    h2, p {
+        color: black;
+        place-self: center;
+    }
+}
+
+.book-info {
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    height: 28rem;
+}
+
+.book-title {
+    margin-bottom: 1rem;
+}
+
+.vertical-line-overlay {
+    height: 28rem;
+    margin-left: 15px;
+    border-left: 2px solid #222;
+    position: absolute;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    background-color: #C4C4C414;
+}
+
+.button {
+    width: 10rem;
+    height: 3rem;
+
+    color: black;
+}
+
+.book-info footer {
+    margin-top: auto;
+}

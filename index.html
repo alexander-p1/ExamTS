@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="overlay.css">
+    <title>TypeScript Exam</title>
+</head>
+<body>
+    <!-- Min första sida för alla böcker -->
+    <div class="wrapper">
+       <main class="book-container">
+
+        <figure class="book book-one">
+            <span class="vertical-line"></span>
+            <p>Ludwig Bemelmans</p>
+            <h3>Madeleine</h3>
+        </figure>
+
+        <figure class="book book-two">
+            <span class="vertical-line"></span>
+            <p>Beatrix Potter</p>
+            <h3>The Tale of Peter Rabbit</h3>
+        </figure>
+
+        <figure class="book book-three">
+            <span class="vertical-line"></span>
+            <p>E.B White</p>
+            <h3>Charlotte's Web</h3>
+        </figure>
+
+        <figure class="book book-four">
+            <span class="vertical-line"></span>
+            <p>Crockett Johnson</p>
+            <h3>Harold and the Purple Crayon</h3>
+        </figure>
+
+        <figure class="book book-five">
+            <span class="vertical-line-two"></span>
+            <p>Maurice Sendak</p>
+            <h3>Where the wild things are</h3>
+        </figure>
+
+        <figure class="book book-six">
+            <span class="vertical-line-two"></span>
+            <p>Margaret Wise Brown</p>
+            <h3>Goodnight Moon</h3>
+        </figure>
+
+        <figure class="book book-seven">
+            <span class="vertical-line-two"></span>
+            <p>Madeleine L'Engle</p>
+            <h3>A Wrinkle In Time</h3>
+        </figure>
+
+        <figure class="book book-eight">
+            <span class="vertical-line-two"></span>
+            <p>Eric Carle</p>
+            <h3>The Very Hungry Caterpillar</h3>
+        </figure>
+
+       </main>
+    </div>
+
+    <!-- Overlay för alla böcker -->
+    <div class="overlay-wrapper">
+        
+        <main class="overlay-content">
+
+            <aside class="current-book">
+                <span class="vertical-line-overlay"></span>
+                <h2>THIS AUTHOR</h2>
+                <p>Title of the book</p>
+            </aside>
+
+            <section class="book-info">
+                <header class="book-title">
+                    <h1>THIS IS THE TITLE</h1>
+                    <h5>BY AUTHOR THIS PERSON</h5><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint enim expedita iusto ipsam quos iure tempore, repellendus libero maiores saepe aliquam, inventore debitis possimus eum itaque? Similique dolore qui, nisi accusamus, recusandae consectetur asperiores veniam corrupti dicta culpa distinctio quam! Inventore similique debitis officia perferendis alias quod necessitatibus! Asperiores, quis.</p>
+                </header>
+                
+                <section class="details">
+                    <article class="book-details">
+                        <h4>Details:</h4>
+                        <h5>Lorem, ipsum.</h5>
+                    </article>
+        
+                    <article class="book-details">
+                        <h4>Pages:</h4>
+                        <h5>Lorem, ipsum.</h5>
+                    </article>
+        
+                    <article class="book-details">
+                        <h4>First Published:</h4>
+                        <h5>Lorem, ipsum.</h5>
+                    </article>
+        
+                    <article class="book-details">
+                        <h4>Publisher:</h4>
+                        <h5>Lorem, ipsum.</h5>
+                    </article>
+                </section>
+                <footer><button class="button">Oh, I want to read it!</button></footer>
+            </section>
+
+           
+        </main>
+    </div>
+
+    <script src="dist/index.js"></script>
+</body>
+</html>
