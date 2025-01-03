@@ -1,4 +1,15 @@
-import { Book } from "./json.ts";
+// import { Book } from "../json";
+interface Book {
+    id:        number;
+    title:     string;
+    author:    string;
+    publisher: string;
+    year:      number;
+    pages:     number | null;
+    plot:      string;
+    audience:  string;
+    color:     string;
+}
 
 const baseURL: string = 'https://my-json-server.typicode.com/zocom-christoffer-wallenberg/books-api/books';
 
@@ -20,6 +31,8 @@ const fetchData = async (): Promise<Book[]> => {
     }
 }
 fetchData();
+
+
 
 
 

@@ -17,9 +17,11 @@ const fetchData = () => __awaiter(void 0, void 0, void 0, function* () {
         }
         const books = yield response.json();
         console.log(books);
+        return books;
     }
     catch (error) {
         console.error('Failed to fetch data:', error);
+        return [];
     }
 });
 fetchData();
