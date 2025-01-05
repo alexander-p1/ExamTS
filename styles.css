@@ -9,6 +9,7 @@
     height: 100vh;
     display: flex;
     justify-content: center;
+    background-color: #f0f0f0;
 }
 
 .book-container {
@@ -32,20 +33,6 @@
 
 .book:hover {
     cursor: pointer;
-}
-
-.vertical-line {
-    height: 15rem;
-    top: 14.3rem;
-    border-left: 1px solid black;
-    position: absolute;
-}
-
-.vertical-line-two {
-    height: 239px;
-    bottom: 14.3rem;
-    border-left: 1px solid black;
-    position: absolute;
 }
 
 .book-one {
